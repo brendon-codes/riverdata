@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 44.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riverdata"
+version = "0.1.0"
+description = ""
+requires-python = "~=3.10"
+dependencies = [
+    "requests==2.27.1",
+    "numpy==1.22.3",
+    "scikit-learn==^1.1.1"
+]
